@@ -7,7 +7,8 @@ double radius = 5.0;
 double area = pi * radius * radius;
 System.out.println("The radius of the circle is: " + radius);
 System.out.println("The area of the circle is: " + area);
-
+	// Demonstrating precision 
+double result = 0.1 + 0.2;	
 System.out.println("0.1 + 0.2 = " + result);
     }
 }
