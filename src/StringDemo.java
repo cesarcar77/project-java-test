@@ -3,7 +3,8 @@ public class StringDemo {
 String greeting = "Hello";
 String name = "Alice";
 
-// String concatenationString message = greeting + ", " + name + "!";
+// String concatenation
+String message = greeting + ", " + name + "!";
 System.out.println(message);
 
 // String length
