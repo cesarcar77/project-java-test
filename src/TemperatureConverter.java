@@ -6,7 +6,8 @@ double celsius = (fahrenheit - 32) * 5.0 / 9.0;
 String message = fahrenheit + "°F is equal to " + celsius + "°C";
 System.out.println(message);
 
-// Rounding to two decimal placesdouble roundedCelsius = Math.round(celsius * 100.0) / 100.0;
+// Rounding to two decimal places
+double roundedCelsius = Math.round(celsius * 100.0) / 100.0;
 String formattedMessage = String.format("%d°F is equal to %.2f°C", fahrenheit, roundedCelsius);
 System.out.println(formattedMessage);
 
